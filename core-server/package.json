@@ -1,0 +1,29 @@
+{
+  "name": "@finfin/core-server",
+  "version": "1.0.0",
+  "description": "@finfin/core-server",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test node test | colortape",
+    "test-cov": "NODE_ENV=test istanbul cover test.js",
+    "lint": "eslint ."
+  },
+  "repository": "@finfin/core-server",
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^0.18.0",
+    "koa-trie-router": "^1.0.10"
+  },
+  "devDependencies": {
+    "colortape": "^0.1.1",
+    "eslint": "^0.14.1",
+    "istanbul": "^0.3.5",
+    "tape": "^3.5.0"
+  },
+  "files": [
+    "LICENSE",
+    "index.js",
+    "README.md"
+  ]
+}

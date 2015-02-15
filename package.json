@@ -1,0 +1,36 @@
+{
+  "name": "finfin",
+  "version": "1.0.0",
+  "description": "finfin",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "linklocal link -r && linklocal list -r | bulk -c 'npm install'",
+    "test": "NODE_ENV=test node test | colortape",
+    "test-cov": "NODE_ENV=test istanbul cover test.js",
+    "lint": "eslint .",
+    "start": "node ."
+  },
+  "engines": {
+    "node": ">=0.11"
+  },
+  "repository": "yoshuawuyts/finfin",
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "@finfin/core-server": "file:core-server",
+    "bulk": "^2.0.0-alpha-0",
+    "linklocal": "^2.5.0",
+    "server-summary": "^1.0.0"
+  },
+  "devDependencies": {
+    "colortape": "^0.1.1",
+    "eslint": "^0.14.1",
+    "istanbul": "^0.3.5",
+    "tape": "^3.5.0"
+  },
+  "files": [
+    "LICENSE",
+    "index.js",
+    "README.md"
+  ]
+}
