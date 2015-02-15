@@ -18,6 +18,8 @@
   "license": "MIT",
   "dependencies": {
     "@finfin/core-server": "file:core-server",
+    "@finfin/ctx-log": "file:ctx-log",
+    "@finfin/api-balance": "file:api-balance",
     "bulk": "^2.0.0-alpha-0",
     "linklocal": "^2.5.0",
     "server-summary": "^1.0.0"
