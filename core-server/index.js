@@ -5,4 +5,3 @@ const server = koa()
 server.use(router(server))
 
 module.exports = server
-

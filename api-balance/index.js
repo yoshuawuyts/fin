@@ -1,5 +1,6 @@
 const server = require('@finfin/core-server')
 
-server.get('/', function * () {
-  this.log('balance got hit')
+server.get('/balance', function * () {
+  const log = this.log('balance')
+  log.info('balance got hit')
 })
