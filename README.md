@@ -1,5 +1,6 @@
 # finfin
-Simple finance visualizations
+[wip] simple finance visualizations Result should look something like this:
+![dope data viz](https://s-media-cache-ak0.pinimg.com/originals/e0/64/b5/e064b5bdf2285c6dd48d586c30ea64f2.jpg)
 
 ## Installation
 ```sh
@@ -24,7 +25,8 @@ x-* ......... client-side component
 ```
 
 ## Why?
-Toy project to experiment with architecture.
+Toy project to experiment with architecture. Experimenting in production is
+often too costly, so here we are.
 
 ## See Also
 - [server style guide by Jongleberry](https://github.com/jonathanong/server-style-guide)
