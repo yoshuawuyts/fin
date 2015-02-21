@@ -12,6 +12,7 @@ hub clone yoshuawuyts/finfin
 npm start ......... start the server
 npm install ....... install dependencies
 npm test .......... run test suite
+npm run test-cov .. output test coverage
 ```
 
 ## Files
