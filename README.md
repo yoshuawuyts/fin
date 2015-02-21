@@ -1,6 +1,6 @@
 # finfin
-[wip] simple finance visualizations Result should look something like this:
-![dope data viz](https://s-media-cache-ak0.pinimg.com/originals/e0/64/b5/e064b5bdf2285c6dd48d586c30ea64f2.jpg)
+[wip] simple finance visualization. Result should look something like this:
+[![dope data viz](https://s-media-cache-ak0.pinimg.com/originals/e0/64/b5/e064b5bdf2285c6dd48d586c30ea64f2.jpg)](https://dribbble.com/shots/1800678-Energy-Predictions)
 
 ## Installation
 ```sh
