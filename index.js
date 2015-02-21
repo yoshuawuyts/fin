@@ -11,6 +11,5 @@ module.exports = server
 require('@finfin/api-balance')
 require('@finfin/api-assets')
 
-
 // Start listening.
 if (!module.parent) server.listen(port, summary)
