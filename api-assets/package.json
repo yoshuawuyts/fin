@@ -15,6 +15,7 @@
     "@finfin/core-log": "file:../core-log",
     "browserify": "^9.0.3",
     "koa-myth": "^1.0.1",
+    "koa-send": "^1.3.1",
     "koa-watchify": "^1.0.4",
     "myth": "^1.3.0",
     "rework": "^1.0.1",

@@ -1,0 +1,1 @@
+require('@finfin/view-balance')()

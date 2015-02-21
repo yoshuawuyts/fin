@@ -1,0 +1,26 @@
+{
+  "name": "@finfin/store-client",
+  "version": "1.0.0",
+  "description": "@finfin/store-client",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test node test",
+    "test-cov": "NODE_ENV=test istanbul cover test.js",
+    "lint": "eslint ."
+  },
+  "repository": "@finfin/store-client",
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "eslint": "^0.14.1",
+    "istanbul": "^0.3.5",
+    "tape": "^3.5.0"
+  },
+  "files": [
+    "LICENSE",
+    "index.js",
+    "README.md"
+  ]
+}

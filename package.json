@@ -21,7 +21,9 @@
     "@finfin/api-balance": "file:api-balance",
     "@finfin/core-log": "file:core-log",
     "@finfin/core-server": "file:core-server",
+    "@finfin/view-balance": "file:view-balance",
     "bulk": "^2.0.0-alpha-0",
+    "deku": "0.0.24",
     "linklocal": "^2.5.0",
     "ndjson-logrus": "^1.0.2",
     "server-summary": "^1.0.0"

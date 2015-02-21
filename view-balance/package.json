@@ -1,0 +1,27 @@
+{
+  "name": "@finfin/view-balance",
+  "version": "1.0.0",
+  "description": "@finfin/view-balance",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test node test",
+    "test-cov": "NODE_ENV=test istanbul cover test.js",
+    "lint": "eslint ."
+  },
+  "repository": "@finfin/view-balance",
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "@finfin/x-header": "file:../x-header"
+  },
+  "devDependencies": {
+    "eslint": "^0.14.1",
+    "istanbul": "^0.3.5",
+    "tape": "^3.5.0"
+  },
+  "files": [
+    "LICENSE",
+    "index.js",
+    "README.md"
+  ]
+}
