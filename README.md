@@ -1,6 +1,17 @@
 # finfin
-
 Simple finance visualizations
+
+## Installation
+```sh
+hub clone yoshuawuyts/finfin
+```
+
+## Commands
+```txt
+npm start ......... start the server
+npm install ....... install dependencies
+npm test .......... run test suite
+```
 
 ## Files
 ```
