@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "linklocal link -r && linklocal list -r | bulk -c 'npm install'",
-    "test": "NODE_ENV=test node test | colortape",
+    "test": "standard && NODE_ENV=test node test | colortape",
     "test-cov": "NODE_ENV=test istanbul cover test.js",
     "lint": "eslint .",
     "start": "node . | ndjson-logrus"
@@ -22,6 +22,8 @@
     "@finfin/core-log": "file:core-log",
     "@finfin/core-server": "file:core-server",
     "@finfin/view-balance": "file:view-balance",
+    "babel": "^4.4.3",
+    "brfs": "^1.3.0",
     "bulk": "^2.0.0-alpha-0",
     "deku": "0.0.24",
     "linklocal": "^2.5.0",
@@ -32,6 +34,7 @@
     "colortape": "^0.1.1",
     "eslint": "^0.14.1",
     "istanbul": "^0.3.5",
+    "standard": "^2.7.0",
     "tape": "^3.5.0"
   },
   "files": [
