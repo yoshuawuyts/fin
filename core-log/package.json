@@ -1,14 +1,14 @@
 {
-  "name": "@finfin/ctx-log",
+  "name": "@finfin/core-log",
   "version": "1.0.0",
-  "description": "@finfin/ctx-log",
+  "description": "@finfin/core-log",
   "main": "index.js",
   "scripts": {
     "test": "NODE_ENV=test node test | colortape",
     "test-cov": "NODE_ENV=test istanbul cover test.js",
     "lint": "eslint ."
   },
-  "repository": "@finfin/ctx-log",
+  "repository": "@finfin/core-log",
   "keywords": [],
   "license": "MIT",
   "dependencies": {

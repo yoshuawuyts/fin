@@ -17,9 +17,10 @@
   "keywords": [],
   "license": "MIT",
   "dependencies": {
+    "@finfin/api-assets": "file:api-assets",
     "@finfin/api-balance": "file:api-balance",
+    "@finfin/core-log": "file:core-log",
     "@finfin/core-server": "file:core-server",
-    "@finfin/ctx-log": "file:ctx-log",
     "bulk": "^2.0.0-alpha-0",
     "linklocal": "^2.5.0",
     "ndjson-logrus": "^1.0.2",

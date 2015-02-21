@@ -13,7 +13,8 @@
   "license": "MIT",
   "dependencies": {
     "koa": "^0.18.0",
-    "koa-trie-router": "^1.0.10"
+    "koa-trie-router": "^1.0.10",
+    "koa-logger": "^1.2.2"
   },
   "devDependencies": {
     "colortape": "^0.1.1",

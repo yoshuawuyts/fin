@@ -1,18 +1,24 @@
 {
-  "name": "@finfin/api-balance",
+  "name": "@finfin/api-assets",
   "version": "1.0.0",
-  "description": "@finfin/api-balance",
+  "description": "@finfin/api-assets",
   "main": "index.js",
   "scripts": {
     "test": "NODE_ENV=test node test | colortape",
     "test-cov": "NODE_ENV=test istanbul cover test.js",
     "lint": "eslint ."
   },
-  "repository": "@finfin/api-balance",
+  "repository": "@finfin/api-assets",
   "keywords": [],
   "license": "MIT",
   "dependencies": {
-    "@finfin/core-log": "file:../core-log"
+    "@finfin/core-log": "file:../core-log",
+    "browserify": "^9.0.3",
+    "koa-myth": "^1.0.1",
+    "koa-watchify": "^1.0.4",
+    "myth": "^1.3.0",
+    "rework": "^1.0.1",
+    "watchify": "^2.4.0"
   },
   "devDependencies": {
     "colortape": "^0.1.1",
