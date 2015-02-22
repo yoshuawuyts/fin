@@ -4,12 +4,13 @@ const dom = deku.dom
 
 var button = module.exports = component()
 
-button.prototype.initialState = function() {
+// set initial state
+button.prototype.initialState = function () {
   return { count: 0 }
 }
 
 // render
-button.prototype.render = function(props, state) {
+button.prototype.render = function (props, state) {
   return dom('button', { onClick: onClick }, props.text + ' ' + state.count)
 }
 

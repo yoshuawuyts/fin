@@ -13,6 +13,9 @@
   "engines": {
     "node": ">=0.11"
   },
+  "standard": {
+    "ignore": ["**/node_modules/**"]
+  },
   "repository": "yoshuawuyts/finfin",
   "keywords": [],
   "license": "MIT",
