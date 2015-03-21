@@ -1,6 +1,6 @@
 const server = require('@finfin/core-server')
-const bundle = require('./lib/browserify')
-const styles = require('./lib/styles')
+const bundle = require('./browserify')
+const styles = require('./styles')
 const send = require('koa-send')
 const path = require('path')
 
