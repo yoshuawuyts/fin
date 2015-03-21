@@ -1,0 +1,24 @@
+{
+  "name": "core-storage",
+  "version": "1.0.0",
+  "description": "core-storage",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && NODE_ENV=test node test",
+    "test-cov": "standard && NODE_ENV=test istanbul cover test.js"
+  },
+  "repository": "yoshuawuyts/core-storage",
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "istanbul": "^0.3.8",
+    "standard": "^3.2.0",
+    "tape": "^3.5.0"
+  },
+  "files": [
+    "LICENSE",
+    "index.js",
+    "README.md"
+  ]
+}
